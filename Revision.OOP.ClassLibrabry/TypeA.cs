@@ -20,6 +20,14 @@ namespace Common
     /// file
 
 
+    namespace Models
+    {
+        class Employees
+        {
+
+        }
+    }
+
     public class TypeA
     {
         /// What you can write inside the Class
@@ -83,5 +91,14 @@ namespace Common
 
 
     }
+
+    public enum Gander : byte
+    {
+        Male, Female
+    }
+
+    public delegate string Func(int Number);
+
+    public record Person(int Id, string Name);
 }
 
