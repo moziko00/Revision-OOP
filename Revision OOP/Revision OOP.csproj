@@ -12,4 +12,8 @@
     <ProjectReference Include="..\Revision.OOP.ClassLibrabry\Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Polymorphism\" />
+  </ItemGroup>
+
 </Project>
